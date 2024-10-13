@@ -1,112 +1,60 @@
-/* Global Styles */
-* {
+/* src/styles/stars.css */
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #252138;
-    color: #252138;
-}
-
-/* Header and Navigation */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
+  }
+  
+  .navbar {
+    background-color: #1a1a1a;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
     margin-right: 20px;
-}
-
-nav ul li a {
+  }
+  
+  .navbar ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #000;
-}
-
-.contact-button {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 25px;
-}
-
-/* Hero Section */
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #252138;
-}
-
-.left {
-    flex: 1;
-}
-
-.right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.right img {
-    width: 80%;
-    height: auto;
-}
-
-h1 {
-    font-size: 64px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    background-color: #252138;
-    color: #fff;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-/* Info Section */
-.info {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    background-color: #252138;
-}
-
-.info-box {
-    width: 30%;
-    background-color: #252138;
+  }
+  
+  .landing, .data, .social {
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.info-box p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.info-box small {
-    font-size: 14px;
-    color: #252138;
-}
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  
+  .sky-map, .event-list, .locations, .location-share {
+    background-color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
